@@ -1,0 +1,22 @@
+import turtle
+
+# 1. Configuração inicial
+tela = turtle.Screen()
+tela.bgcolor("white") # Define a cor de fundo (opcional)
+
+tartaruga = turtle.Turtle()
+tartaruga.color("blue") # Define a cor da linha (opcional)
+tartaruga.pensize(3) # Define a espessura da linha (opcional)
+
+# 2. Comandos de desenho (desenhando um quadrado)
+tartaruga.forward(100)
+tartaruga.right(90)
+tartaruga.forward(100)
+tartaruga.right(90)
+tartaruga.forward(100)
+tartaruga.right(90)
+tartaruga.forward(100)
+
+# 3. Finalização
+turtle.mainloop()
+
